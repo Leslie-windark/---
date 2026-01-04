@@ -1,0 +1,10 @@
+# requirements.txt 更新内容
+faster-whisper>=0.10.0
+torch>=2.0.0
+pillow>=10.0.0
+yt-dlp>=2024.4.9
+# GPU加速相关
+torchaudio>=2.0.0
+torchvision>=0.15.0
+# 如果需要CUDA支持，确保安装对应版本的PyTorch
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
